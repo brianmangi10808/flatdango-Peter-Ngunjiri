@@ -11,17 +11,38 @@
 ul {
   list-style: none;
 }
-#user-list{
+
+.github-container{
+  width: 420px;
+  /* height: 450px; */
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: rgb(197, 189, 189);
+  border-radius: 10px;
+  padding: 8px 16px;
+}
+.movielist {
+  font-size: larger;
+  list-style: none;
+  padding-left: 20px;
+
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 4px;
 }
-.movie-items{
-  width: 30%;
-  margin-bottom: 20px;
-  box-sizing: border-box;
+
+.movielist li {
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
-.movie-poster{
-  max-width: 30%;
-  height: 30%;
+
+.movielist li:hover {
+  background-color: rgba(227, 222, 222, 0.558);
+}
+.user-list{
+  background: rebeccapurple;
 }
