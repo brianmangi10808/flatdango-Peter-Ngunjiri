@@ -11,3 +11,17 @@
 ul {
   list-style: none;
 }
+#user-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.movie-items{
+  width: 30%;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+.movie-poster{
+  max-width: 30%;
+  height: 30%;
+}
